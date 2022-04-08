@@ -38,3 +38,5 @@ class Queue {
     return this.head.value;
   }
 }
+
+export default Queue;

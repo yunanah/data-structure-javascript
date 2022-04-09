@@ -18,6 +18,10 @@ class Queue {
     return value;
   }
 
+  isEmpty() {
+    return this.rear === this.front;
+  }
+
   peek() {
     return this.queue[this.front];
   }
